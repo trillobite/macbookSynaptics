@@ -26,6 +26,7 @@ http://ubuntuforums.org/showthread.php?t=813884&page=6&s=ac3e2b3e6cac6075581dadc
 
 	Done! Your touchpad should work better now!
 
-Note:	Step 9: may be confusing, $(uname -r) is basically a command that simply automatically detects the latest kernel.
+Note:	Step 9: may be confusing, you will need to actually get a list of directories within that directory, and view what folders are there, and replace $(uname -r) with the name of that folder. Command to view folder names: ls /lib/modules
+	-You will use the folders labeled similar to this: 3.13.0-44-generic
 
 Note:	This does not make the touchpad work perfectly, but it does improve it drastically. If you discover adjustments that drastically improve the performance of the touchpad, let me know, or make the modifications and make a fork of my project.
