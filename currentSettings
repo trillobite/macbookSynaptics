@@ -4,7 +4,7 @@ Parameter settings:
     TopEdge                 = 190
     BottomEdge              = 2049
     FingerLow               = 15
-    FingerHigh              = 20
+    FingerHigh              = 18
     MaxTapTime              = 100
     MaxTapMove              = 100
     MaxDoubleTapTime        = 180
@@ -23,8 +23,8 @@ Parameter settings:
     MinSpeed                = 1
     MaxSpeed                = 1.75
     AccelFactor             = 0.2
-    TouchpadOff             = 2
-    LockedDrags             = 1
+    TouchpadOff             = 0
+    LockedDrags             = 0
     LockedDragTimeout       = 5000
     RTCornerButton          = 2
     RBCornerButton          = 3
@@ -43,7 +43,7 @@ Parameter settings:
     PalmDetect              = 1
     PalmMinWidth            = 10
     PalmMinZ                = 235
-    CoastingSpeed           = 10
+    CoastingSpeed           = 0
     CoastingFriction        = 15
     PressureMotionMinZ      = 35
     PressureMotionMaxZ      = 188
