@@ -43,6 +43,8 @@ Note:	Step 9: may be confusing, $(uname -r) is basically a command that simply a
 Note:	This does not make the touchpad work perfectly, but it does improve it drastically. If you discover adjustments that drastically improve the performance of the touchpad, let me know, or make the modifications and make a fork of my project.
 
 Bug fixes:
+----------
+
 March 23, 2015
 Updates to 10-synaptics.conf settings:
 -Horizontal two finger scrolling was a major issue, while scrolling vertically, the system would randomly throw a powerful scroll to the right or left. This issue has been reduced, but has not been fully resolved. Best way to deal with this is to use the two finger scroll in an arched motion, rather than a precise vertical motion.
@@ -53,5 +55,8 @@ March 7, 2015
 -Two finger scrolling is now setup to operate properly automatically when the user copies the synaptics config file to the specified directory.
 
 Bugs:
+-----
+
 March 7, 2015
 -Circular scrolling no longer seems to work, if you require this function, use the old appletouch.c.bak, as described above.
+-The driver will not stay installed. After every kernel update, you must redo the installation process. A bash script is in the making, but is not finished, the creation of the driver its self is taking priority.
