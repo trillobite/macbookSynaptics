@@ -46,12 +46,17 @@ Bug fixes:
 ----------
 
 March 23, 2015
+
 Updates to 10-synaptics.conf settings:
+
 -Horizontal two finger scrolling was a major issue, while scrolling vertically, the system would randomly throw a powerful scroll to the right or left. This issue has been reduced, but has not been fully resolved. Best way to deal with this is to use the two finger scroll in an arched motion, rather than a precise vertical motion.
+
 -Copy and pasting objects would sometimes throw a random scroll causing the page to flick in another direction.
 
 March 7, 2015
+
 -mouse cursor is now far more accurate, though the user is requried to max the mouse sensitivity in ubuntu to make it manageable.
+
 -Two finger scrolling is now setup to operate properly automatically when the user copies the synaptics config file to the specified directory.
 
 Bugs:
@@ -59,4 +64,5 @@ Bugs:
 
 March 7, 2015
 -Circular scrolling no longer seems to work, if you require this function, use the old appletouch.c.bak, as described above.
+
 -The driver will not stay installed. After every kernel update, you must redo the installation process. A bash script is in the making, but is not finished, the creation of the driver its self is taking priority.
