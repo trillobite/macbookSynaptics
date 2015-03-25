@@ -1,8 +1,8 @@
 Parameter settings:
-    LeftEdge                = 244
-    RightEdge               = 2635
-    TopEdge                 = 190
-    BottomEdge              = 2049
+    LeftEdge                = 50
+    RightEdge               = 1050
+    TopEdge                 = 25
+    BottomEdge              = 650
     FingerLow               = 15
     FingerHigh              = 18
     MaxTapTime              = 100
@@ -14,7 +14,7 @@ Parameter settings:
     EmulateTwoFingerMinZ    = 331
     EmulateTwoFingerMinW    = 7
     VertScrollDelta         = -30
-    HorizScrollDelta        = -50
+    HorizScrollDelta        = -40
     VertEdgeScroll          = 0
     HorizEdgeScroll         = 0
     CornerCoasting          = 0
@@ -22,7 +22,7 @@ Parameter settings:
     HorizTwoFingerScroll    = 1
     MinSpeed                = 1
     MaxSpeed                = 1.75
-    AccelFactor             = 0.2
+    AccelFactor             = 0.3
     TouchpadOff             = 0
     LockedDrags             = 0
     LockedDragTimeout       = 5000
@@ -32,11 +32,11 @@ Parameter settings:
     LBCornerButton          = 0
     TapButton1              = 1
     TapButton2              = 3
-    TapButton3              = 0
+    TapButton3              = 2
     ClickFinger1            = 1
     ClickFinger2            = 3
-    ClickFinger3            = 0
-    CircularScrolling       = 0
+    ClickFinger3            = 2
+    CircularScrolling       = 1
     CircScrollDelta         = 0.1
     CircScrollTrigger       = 0
     CircularPad             = 0
@@ -44,7 +44,7 @@ Parameter settings:
     PalmMinWidth            = 10
     PalmMinZ                = 235
     CoastingSpeed           = 0
-    CoastingFriction        = 15
+    CoastingFriction        = 50
     PressureMotionMinZ      = 35
     PressureMotionMaxZ      = 188
     PressureMotionMinFactor = 1

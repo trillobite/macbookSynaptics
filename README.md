@@ -45,6 +45,9 @@ Note:	This does not make the touchpad work perfectly, but it does improve it dra
 Bug fixes:
 ----------
 
+March 25, 2015
+-Circular Scrolling should now be enabled! Mouse movements are smoother than ever, and Horizontal two-finger scrolling is now enabled. Coasting is still disabled do to the sensitivity of Horizontal scrolling. This project is nearing the end of it's Alpha stage, and a Beta version will soon be released.
+
 March 23, 2015
 
 Updates to 10-synaptics.conf settings:
@@ -66,3 +69,9 @@ March 7, 2015
 -Circular scrolling no longer seems to work, if you require this function, use the old appletouch.c.bak, as described above.
 
 -The driver will not stay installed. After every kernel update, you must redo the installation process. A bash script is in the making, but is not finished, the creation of the driver its self is taking priority.
+
+LICENSE: 
+--------
+NO WARRANTIES ARE EXPRESSED OR IMPLIED! USE AT YOUR OWN RISK. This project is free and open, you may copy and redistribute, but you must give me credit if you do.
+
+The driver its self was only lightly modified by me, credit goes to the authors of the driver. My goal is to create an easy to install driver, that comes with all the required settings.
