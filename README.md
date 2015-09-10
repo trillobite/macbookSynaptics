@@ -1,12 +1,14 @@
-This is a touchpad driver for the macbook 3,1.
+#Touchpad driver for the macbook 3,1.
 
-Improvements will be made as issues and solutions are learned.
+Improvements will be made as issues and solutions are discovered.
 
 I recently ran into a problem with the synaptics touchpad driver on the MacBook 3.1, the cursor appeared to basically draw squares as the cursor went across the screen. Through my search, the only solution was to compile a new driver with sepecific settings. Luckily for me I found a forum post where there are those who were taking the same approach a few years ago. Even through this forum post is dated, it was still possible to produce my own new driver specifically for ubuntu 14.04. I hope you enjoy it, as I do.
 
 Recent improvements drastically enhance the mouse cursor movements and accuracy. The sacrifice is, it appears it is not possible to run circular scrolling with the current setup. If you still want circular scrolling and can sacrifice some accuracy of the mouse cursor delete appletouch.c, and rename "appletouch.c.bak" to "appletouch.c" [no quotes].
 
 If you found this driver, you must be completely desperate to make your touchpad work properly under ubuntu 14.04. Luckily, this will help you out.
+
+Note: Please do not use this driver on mission critical systems. The driver, repository, and instructions were originally designed for my own personal use. The use of this driver should be regarded as simply, a learning experience or experimentation. If the driver works for you, that is excellent, just be aware that I am not a developer of the Ubuntu team, and there may be some unintended conflicts with other drivers if I did not do my work properly. Although there is no customer support, if you run into an issue, I encourage you to submit a bug report within this repository by the link on the right hand side called "Issues."
 
 System Requirements:
 MacBook 3.1
@@ -20,7 +22,7 @@ Linux-headers-generic
 
 3.	enter the administrator password when prompted, and it will compile and install!
 
-Installation instructions:
+###Alternate Terminal Installation Instructions:
 http://ubuntuforums.org/showthread.php?t=813884&page=6&s=ac3e2b3e6cac6075581dadc2ecb31297
     -Go to post #56
     -Follow steps 6 - 10
