@@ -13,5 +13,7 @@ rm appletouch.mod.c
 rm modules.order
 rm appletouch.mod.o
 rm Module.symvers
+rm .a*
+rm -r .tmp_versions
 
 echo "All Done."
